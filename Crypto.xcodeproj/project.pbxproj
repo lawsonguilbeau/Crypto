@@ -28,6 +28,8 @@
 		C69391102B6F432900808E53 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C693910F2B6F432900808E53 /* PreviewProvider.swift */; };
 		C69391122B6F4DBF00808E53 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69391112B6F4DBF00808E53 /* Double.swift */; };
 		C69391142B6FFADF00808E53 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69391132B6FFADF00808E53 /* HomeViewModel.swift */; };
+		C6977D1A2B8BAD0F00D6CC79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6977D192B8BAD0F00D6CC79 /* LaunchScreen.storyboard */; };
+		C6977D1C2B8BB15E00D6CC79 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6977D1B2B8BB15E00D6CC79 /* LaunchView.swift */; };
 		C6A385232B72ED2D00C3812A /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A385222B72ED2D00C3812A /* LocalFileManager.swift */; };
 		C6A385252B732FC200C3812A /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A385242B732FC200C3812A /* SearchBarView.swift */; };
 		C6B74D5C2B7339B100A4A080 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6B74D5B2B7339B100A4A080 /* UIApplication.swift */; };
@@ -72,6 +74,8 @@
 		C693910F2B6F432900808E53 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		C69391112B6F4DBF00808E53 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		C69391132B6FFADF00808E53 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C6977D192B8BAD0F00D6CC79 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6977D1B2B8BB15E00D6CC79 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		C6A385222B72ED2D00C3812A /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
 		C6A385242B732FC200C3812A /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		C6B74D5B2B7339B100A4A080 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
@@ -186,6 +190,7 @@
 		C69390FE2B6ED49000808E53 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				C6977D172B8BACCB00D6CC79 /* Launch */,
 				C67AF0192B8A73E300E64B6F /* Settings */,
 				C6E9C8682B81542F0011A992 /* Detail */,
 				C69391042B6ED77000808E53 /* Components */,
@@ -253,6 +258,23 @@
 				C617F4792B7A8FF500A6E955 /* PortfolioContainer.xcdatamodeld */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		C6977D172B8BACCB00D6CC79 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				C6977D182B8BACDE00D6CC79 /* Views */,
+			);
+			path = Launch;
+			sourceTree = "<group>";
+		};
+		C6977D182B8BACDE00D6CC79 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C6977D192B8BAD0F00D6CC79 /* LaunchScreen.storyboard */,
+				C6977D1B2B8BB15E00D6CC79 /* LaunchView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		C6CEF4C42B72D7F2008C8DE0 /* CoinImage */ = {
@@ -361,6 +383,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6977D1A2B8BAD0F00D6CC79 /* LaunchScreen.storyboard in Resources */,
 				C69390F32B6ECA0C00808E53 /* Preview Assets.xcassets in Resources */,
 				C69390F02B6ECA0C00808E53 /* Assets.xcassets in Resources */,
 			);
@@ -389,6 +412,7 @@
 				C6CEF4C62B72D81B008C8DE0 /* CoinImageView.swift in Sources */,
 				C69390EC2B6ECA0B00808E53 /* CryptoApp.swift in Sources */,
 				C6B74D5C2B7339B100A4A080 /* UIApplication.swift in Sources */,
+				C6977D1C2B8BB15E00D6CC79 /* LaunchView.swift in Sources */,
 				C69391072B6ED7CA00808E53 /* CircleButtonView.swift in Sources */,
 				C69390FD2B6ECF4F00808E53 /* Color.swift in Sources */,
 				C6E9C86E2B8154AE0011A992 /* DetailView.swift in Sources */,
@@ -550,6 +574,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -578,6 +603,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
