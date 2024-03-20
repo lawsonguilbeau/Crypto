@@ -13,8 +13,8 @@ struct SettingsView: View {
     let coingeckoURL = URL(string: "https://www.coingecko.com")!
     let personalURL = URL(string: "https://github.com/JiggyMac12")!
     let learnmoreURL = URL(string: "https://en.wikipedia.org/wiki/Cryptocurrency")!
-    let privacyPolicyURL = URL(string: "https://jiggymac12.github.io/privacy.html")!
-    let termsPolicyURL = URL(string: "https://jiggymac12.github.io/terms.html")!
+    let privacyPolicyURL = URL(string: "https://lawsonguilbeau.github.io/privacy.html")!
+    let termsPolicyURL = URL(string: "https://lawsonguilbeau.github.io/terms.html")!
     
     var body: some View {
         NavigationView {
